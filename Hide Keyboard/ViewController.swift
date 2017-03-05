@@ -10,14 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-
-    @IBAction func hideKeyboard(sender: AnyObject) {
-        self.view!.endEditing(true)
+    
+    @IBAction func hideKeyboard(_ sender: AnyObject) {
+        view.endEditing(true)
     }
 }
 
